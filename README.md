@@ -36,9 +36,10 @@ Les instances sont paramétrées comme suit :
 
 C'est l'API sur laquelle se connecteront les différents clients (mobiles, web, python, analyses, maps ...)  
 Le backend peut être instancié pour chaque orgnanisme territorial/association.
+
 Un backend est composé de scopes, les scopes permettent de gérer plusieurs zones géographiques au sein d'une même instance.
 
-* [Installation d'une backend](https://github.com/jesuisundesdeux/vigilo-backend/blob/master/doc/INSTALLATION.md)
+* [Installation d'un backend](https://github.com/jesuisundesdeux/vigilo-backend/blob/master/doc/INSTALLATION.md)
 * [Interactions avec un backend](https://github.com/jesuisundesdeux/vigilo-backend/blob/master/doc/REST_API.md)
 
 ### Clients

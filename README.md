@@ -26,7 +26,7 @@ C'est le composant le plus résilient, qui centralise la configuration globale �
 
 *Contexte = Instance (backend) + Scope*
 
-Les instances sont paramétrées comme suit :
+Les contextes sont paramétrés comme suit :
 * api_path : URL complete du backend
 * prod : (true|false) si le contexte est affiché par les clients
 * country : Pays correspondant

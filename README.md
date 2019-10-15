@@ -2,6 +2,8 @@
 
 Ce repository consiste à centraliser les informations liées à l'écosystème Vigilo.
 
+![Alt text](obs_add.png)
+
 ## Liste des repos Vigilo
 
 * [vigilo-documentation](https://github.com/jesuisundesdeux/vigilo-documentation) : Ce repository centralise les informations liées à l'écosystème Vigilo.
@@ -14,7 +16,7 @@ Ce repository consiste à centraliser les informations liées à l'écosystème 
 * [vigilo-notebooks](https://github.com/jesuisundesdeux/vigilo-notebooks) : Notebooks d'analyse de données Vigilo
 * [docker-vigilo-notebooks](https://github.com/jesuisundesdeux/docker-vigilo-notebooks) : Image docker utilisé pour les notebooks.
 
-## Fonctionnement Vigilo
+## Composants Vigilo
 
 Vigilo est un ecosystème réparti sur plusieurs composants :
 
@@ -36,4 +38,26 @@ C'est l'API sur laquelle se connecteront les différents clients (mobiles, web, 
 Le backend peut être instancié pour chaque orgnanisme territorial/association.
 Un backend est composé de scopes, les scopes permettent de gérer plusieurs zones géographiques au sein d'une même instance.
 
+* [Installation d'une backend](https://github.com/jesuisundesdeux/vigilo-backend/blob/master/doc/INSTALLATION.md)
+* [Interactions avec un backend](https://github.com/jesuisundesdeux/vigilo-backend/blob/master/doc/REST_API.md)
+
+### Clients
+
+Les clients Vigilo sont nombreux :
+* Vigilo Android : Actuellement développé avec Kodular, le code n'est pour le moment pas publiable 
+* Vigilo Web : Developpé en javascript il est diponible sur app.vigilo.city
+* VigiloTool : Client en python pour exploiter les données
+* Maps : Umap est souvent utilisé pour afficher les observations sur une carte
+* Notebooks : Pour analyser les données Vigilo
+* cURL, etc, ... l'ensemble des clients web peuvent utiliser Vigilo
+
+## Workflow Vigilo
+
+### Initialisation d'une application cliente sur un contexte
+
 ![Alt text](init.png)
+
+
+
+
+

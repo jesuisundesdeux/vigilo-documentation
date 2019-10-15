@@ -26,13 +26,14 @@ C'est le composant le plus résilient, qui centralise la configuration globale �
 
 Les instances sont paramétrées comme suit :
 * api_path : URL complete du backend
-* prod : (true|false) si 
-
+* prod : (true|false) si le contexte est affiché par les clients
+* country : Pays correspondant
+* scope : Scope à configurer
 
 ### Backend 
 
 C'est l'API sur laquelle se connecteront les différents clients (mobiles, web, python, analyses, maps ...)  
-Le backend peut être instancié pour chaque orgnanisme territorial/association et est connu des clients grâce à firebase.
-
+Le backend peut être instancié pour chaque orgnanisme territorial/association.
+Un backend est composé de scopes, les scopes permettent de gérer plusieurs zones géographiques au sein d'une même instance.
 
 ![Alt text](init.png)

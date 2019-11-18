@@ -15,6 +15,7 @@ Ce repository consiste à centraliser les informations liées à l'écosystème 
 * [docker-vigilo-backend](https://github.com/jesuisundesdeux/docker-vigilo-backend) : Image docker utilisée pour Vigilo
 * [vigilo-notebooks](https://github.com/jesuisundesdeux/vigilo-notebooks) : Notebooks d'analyse de données Vigilo
 * [docker-vigilo-notebooks](https://github.com/jesuisundesdeux/docker-vigilo-notebooks) : Image docker utilisé pour les notebooks.
+* [vigilo-ar](https://github.com/jesuisundesdeux/vigilo-ar) : Affichage observations Vigilo en réalité augmentée
 
 ## Composants Vigilo
 
